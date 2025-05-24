@@ -1,0 +1,15 @@
+faiss-cpu==1.11.0
+langchain
+langchain-community
+langchain-openai
+langgraph
+python-dotenv
+qdrant-client
+requests
+langchain-tavily
+
+# litellm
+
+# langchain-core==0.3.59
+
+# openai

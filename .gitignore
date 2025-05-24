@@ -1,0 +1,5 @@
+.env
+/agents
+/faiss_db
+/agentic_db
+/venv
