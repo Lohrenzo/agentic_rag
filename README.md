@@ -34,9 +34,11 @@ pip install -r requirements.txt
 
 Set the following variables in a `.env` file in your project root:
 
+```sh
 OPENAI_API_KEY=your_openai_api_key
 TAVILY_API_KEY=your_tavily_api_key
 AGENTIC_DB_DIR=path/to/your/vectorstore
+```
 
 ---
 
@@ -65,7 +67,7 @@ You can ask me to perform calculations, search the web, or answer from my knowle
 
 You: What is egusi soup made from?
 
-Assistant (from knowledge base): Egusi soup is made from ground melon seeds, leafy vegetables, and assorted meats or fish. It is a popular West African dish.
+Assistant: Egusi soup is made from ground melon seeds, leafy vegetables, and assorted meats or fish. It is a popular West African dish.
 
 You: What is the capital of France?
 
@@ -75,12 +77,11 @@ You: 15 + 27
 
 Assistant: The sum of 15 and 27 is 42.
 
-text
-
 ---
 
 ## Project Structure
 
+```sh
 .
 ├── main.py
 ├── utils/
@@ -90,6 +91,7 @@ text
 ├── requirements.txt
 ├── .env
 └── README.md
+```
 
 ---
 
@@ -110,5 +112,4 @@ text
 
 ---
 
-**Enjoy your hybrid AI assistant!**  
-Feel free to open issues or contribute.
+**Enjoy your hybrid AI assistant!**
