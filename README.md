@@ -35,7 +35,9 @@ pip install -r requirements.txt
 Set the following variables in a `.env` file in your project root:
 
 OPENAI_API_KEY=your_openai_api_key
+
 TAVILY_API_KEY=your_tavily_api_key
+
 AGENTIC_DB_DIR=path/to/your/vectorstore
 
 ---
